@@ -1,52 +1,251 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Mon portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Yohann PHILIPPE — CV Développeur</title>
+    <meta name="description" content="CV en ligne — Yohann PHILIPPE, Développeur logiciel / web."/>
+    <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-<header>
-    <div class="container">
-        <h1>👋 Bonjour, je suis <span class="accent">Yohann PHILIPPE</span></h1>
-        <p>Développeur web freelance — Création de sites modernes et performants</p>
-    </div>
-</header>
+<main class="wrap" role="main" aria-labelledby="profile-name">
 
-<main class="container">
-    <section>
-        <h2>À propos</h2>
-        <p>
-            Passionné par le web, je conçois et développe des sites sur mesure
-            pour aider mes clients à concrétiser leurs projets en ligne.
-        </p>
-    </section>
+    <aside class="left" aria-label="Informations personnelles">
+        <div class="photo" aria-hidden="true">
+            <img src="include/profil.png" alt="Photo de profil">
+        </div>
 
-    <section>
-        <h2>Compétences</h2>
-        <ul class="skills">
-            <li>PHP (toutes versions)</li>
-            <li>Symfony (et autres frameworks)</li>
-            <li>HTML / CSS</li>
-            <li>JavaScript</li>
-            <li>MySQL / MariaDB</li>
-            <li>...</li>
-        </ul>
-    </section>
+        <h1 id="profile-name">Yohann PHILIPPE</h1>
+        <span class="role">Développeur Full-stack • 7,5 XP</span>
 
-    <section>
-        <h2>Contact</h2>
-        <p>📧 <a href="mailto:ton.email@example.com">yohann.philippe.iut2@gmail.com</a></p>
-        <p>💼 <a href="https://www.linkedin.com/in/yohann-philippe-36647783/" target="_blank">Mon LinkedIn</a></p>
-        <p>💻 <a href="https://github.com/insigno2" target="_blank">Mon GitHub</a></p>
+        <div class="contact" aria-labelledby="contact-title">
+            <strong id="contact-title">Contact</strong>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M3 5.5A2.5 2.5 0 015.5 3h13A2.5 2.5 0 0121 5.5v13a2.5 2.5 0 01-2.5 2.5h-13A2.5 2.5 0 013 18.5v-13z"
+                          stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <a href="mailto:yohann.philippe.iut2@gmail.com">yohann.philippe.iut2@gmail.com</a></div>
+
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M22 16.92V19a2 2 0 01-2 2A19 19 0 013 6 2 2 0 015 4h2.09a1 1 0 01.97.757l.54 2.16a1 1 0 01-.27 1.01L7.7 10.7a12 12 0 006.6 6.61l1.76-1.6a1 1 0 011.01-.27l2.16.54A1 1 0 0119 16.91V19"
+                          stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>+33 6 70 10 60 11</span></div>
+
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M21 10v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6" stroke="currentColor" stroke-width="1.2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 10V7a5 5 0 0110 0v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+                <a href="https://insigno2.github.io/portfolio/" target="_blank" rel="noopener">Mon CV</a>
+            </div>
+            <div class="contact-item">
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M21 10v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6" stroke="currentColor" stroke-width="1.2"
+                          stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M7 10V7a5 5 0 0110 0v3" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                </svg>
+                <a href="https://www.linkedin.com/in/yohann-philippe-36647783/" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+
+        <div class="skills" aria-labelledby="skills-title">
+            <strong id="skills-title1">Compétences back-end</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">PHP (5 à 8)</span>
+                <span class="skill-pill">Symfony (2 à 7)</span>
+                <span class="skill-pill">PHP Unit</span>
+                <span class="skill-pill">XDebug</span>
+                <span class="skill-pill">Python</span>
+                <span class="skill-pill">pytest</span>
+                <span class="skill-pill">APIs RESTful</span>
+                <span class="skill-pill">APIs SOAP</span>
+                <span class="skill-pill">cURL</span>
+            </div>
+            <strong id="skills-title6">Environnements de développement</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">Suite Intelliji</span>
+                <span class="skill-pill">PHPStorm</span>
+                <span class="skill-pill">PyCharm</span>
+                <span class="skill-pill">Linux</span>
+                <span class="skill-pill">Windows</span>
+                <span class="skill-pill">Postman</span>
+                <span class="skill-pill">SOAPUI</span>
+            </div>
+            <strong id="skills-title2">Compétences système</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">Docker</span>
+                <span class="skill-pill">CentOS</span>
+                <span class="skill-pill">RedHat</span>
+                <span class="skill-pill">Apache</span>
+                <span class="skill-pill">Linux (commandes courantes)</span>
+                <span class="skill-pill">Nginx</span>
+                <span class="skill-pill">Bash / Scripts Shell</span>
+                <span class="skill-pill">ESXi VMWare</span>
+                <span class="skill-pill">OVH</span>
+            </div>
+            <strong id="skills-title3">Compétences BDD</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">MariaDB</span>
+                <span class="skill-pill">MySQL</span>
+                <span class="skill-pill">Postgres</span>
+                <span class="skill-pill">SGBDs</span>
+            </div>
+            <strong id="skills-title4">Compétences front-end</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">JavaScript / ES6+</span>
+                <span class="skill-pill">HTML</span>
+                <span class="skill-pill">CSS</span>
+                <span class="skill-pill">JQuery</span>
+                <span class="skill-pill">GraphViz</span>
+                <span class="skill-pill">HighCharts</span>
+                <span class="skill-pill">ExtJS</span>
+                <span class="skill-pill">TypeScript</span>
+                <span class="skill-pill">Angular</span>
+            </div>
+            <strong id="skills-title8">Outils et processes</strong>
+            <div class="skill-list" style="margin-top:8px">
+                <span class="skill-pill">Git</span>
+                <span class="skill-pill">GitLab</span>
+                <span class="skill-pill">JIRA</span>
+                <span class="skill-pill">GitHub</span>
+                <span class="skill-pill">AGILE</span>
+                <span class="skill-pill">Scrum</span>
+                <span class="skill-pill">CI CD</span>
+                <span class="skill-pill">Jenkins</span>
+            </div>
+
+            <div style="margin-top:10px;font-size:13px;">Langues</div>
+            <div class="tags" aria-hidden="true">
+                <span class="tag">FR — Nat.</span>
+                <span class="tag">EN</span>
+                <span class="tag">IT</span>
+            </div>
+        </div>
+
+        <footer>
+            <small>Dernière mise à jour : été 2025</small>
+        </footer>
+    </aside>
+
+    <section class="main" aria-label="Expérience et projets">
+        <section class="section" aria-labelledby="about-title">
+            <h2 id="about-title">À propos</h2>
+            <p style="margin:0;color:var(--muted);line-height:1.5">
+                Développeur Full-stack spécialisé en applications web performantes et maintenables. Passionné par la
+                conception d'API robustes, l'UX et l'optimisation des performances. Recherche opportunités.
+            </p>
+        </section>
+
+        <section class="section" aria-labelledby="exp-title">
+            <h2 id="exp-title">Expérience</h2>
+
+            <article class="entry" aria-labelledby="exp1">
+                <div class="meta">2017 — Maintenant<br><strong>Kaizen Solutions</strong></div>
+                <div class="body">
+                    <h3 id="exp1">Ingénieur en développement web et logiciel</h3>
+                    <p>Développeur PHP / Symfony / Python sur des missions longues (2 à 4 ans) dans des équipes de développement.
+                        Développements industriels pour un grand groupe de production et d'exploitation d'énergie.
+                        Occasionnellement Scrum Master, tech lead sur certaines missions.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">DevSecOps</span>
+                        <span class="tag">PHP</span>
+                        <span class="tag">Symfony</span>
+                        <span class="tag">Python</span>
+                        <span class="tag">Système</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="entry" aria-labelledby="exp2">
+                <div class="meta">2013 — 2017<br><strong>Eolas (Groupe Business & Decisions)</strong></div>
+                <div class="body">
+                    <h3 id="exp2">Alternance et stages de développement full stack</h3>
+                    <p>Refonte d'interfaces clients, amélioration de l'accessibilité, intégration d'APIs REST dans une agence web grenobloise. Plusieurs stages de
+                        DUT, de Master, et alternance de fin d'étude.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">PHP</span>
+                        <span class="tag">Symfony</span>
+                    </div>
+                </div>
+            </article>
+
+            <article class="entry" aria-labelledby="exp2">
+                <div class="meta">2016<br><strong>WebiaProd Grenoble</strong></div>
+                <div class="body">
+                    <h3 id="exp5">Stage de développement full stack</h3>
+                    <p>Refonte de sites clients, SEO, développements from scratch.
+                    </p>
+                    <div class="tags">
+                        <span class="tag">Wordpress</span>
+                        <span class="tag">HTML/CSS/JS</span>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
+        <section class="section" aria-labelledby="projects-title">
+            <h2 id="projects-title">Projets sélectionnés</h2>
+            <div class="projects-grid">
+                <article class="project" aria-labelledby="p1">
+                    <h4 id="p1">Pralinet</h4>
+                    <p>Plateforme SaaS pour gestion de données clients. Back-end serverless, pipelines CI/CD,
+                        monitoring.</p>
+                </article>
+
+                <article class="project" aria-labelledby="p2">
+                    <h4 id="p2">Nom du projet B</h4>
+                    <p>Application mobile PWA pour consommation hors-ligne, synchronisation optimisée.</p>
+                </article>
+
+                <article class="project" aria-labelledby="p3">
+                    <h4 id="p3">Nom du projet C</h4>
+                    <p>Bibliothèque UI réutilisable et accessible, storybook et tests visuels.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="edu-title">
+            <h2 id="edu-title">Formations</h2>
+
+            <article class="entry" aria-labelledby="edu1">
+                <div class="meta">2024-2025<br><strong>SensioLabs</strong></div>
+                <div class="body">
+                    <h3 id="edu3">Certification Symfony <strong>(en cours)</strong></h3>
+                    <p>Formation à la certification Symfony</p>
+                </div>
+            </article>
+            <article class="entry" aria-labelledby="edu1">
+                <div class="meta">2017<br><strong>SupInfo Grenoble</strong></div>
+                <div class="body">
+                    <h3 id="edu2">Master Computer Science (M.SC.2)</h3>
+                    <p>Spécialisation en développement et organisation de projets, projets en équipe. <br>Master 2 en contrat de professionnalisation.</p>
+                </div>
+            </article>
+            <article class="entry" aria-labelledby="edu1">
+                <div class="meta">2013<br><strong>IUT2 Grenoble</strong></div>
+                <div class="body">
+                    <h3 id="edu1">DUT Informatique</h3>
+                    <p>Spécialisation en développement logiciel et web, projets en équipe, bonnes pratiques de dev.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="section" aria-labelledby="extras-title">
+            <h2 id="extras-title">Intérêts</h2>
+            <p style="margin:0;color:var(--muted)">
+                Performance, sécurité, mentorship, maintenabilité, évolutivité et qualité de code.
+            </p>
+        </section>
     </section>
 </main>
-
-<footer>
-    <div class="container">
-        <p>© 2025 Yohann PHILIPPE — Tous droits réservés</p>
-    </div>
-</footer>
 </body>
 </html>
